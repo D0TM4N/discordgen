@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discord Nitro Gift Code Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Discord Nitro Gift Code Generator</h1>
+  </header>
+  <main>
+    <div id="buttons">
+      <button id="generate-btn" onclick="startGeneration()">Generate Codes</button>
+      <button id="stop-btn" onclick="stopGeneration()" disabled>Stop Generation</button>
+      <button id="clear-btn" onclick="clearTextArea()">Clear Text Area</button>
+      <button id="download-btn" onclick="downloadCodes()">Download Codes</button>
+    </div>
+    <textarea readonly id="code-area" rows="10" cols="50"></textarea>
+  </main>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
